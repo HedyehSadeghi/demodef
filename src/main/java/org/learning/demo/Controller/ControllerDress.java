@@ -11,8 +11,6 @@ public class ControllerDress {
     @GetMapping("/")
     public String home (Model model){
         System.out.println("ciao");
-        //matteo ti puzza il culo
         return "index";
-        //matteo ti profuma il culo
     }
 }
