@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ControllerDress {
     @GetMapping("/")
     public String home (Model model){
-        return "home";
-        //matteo ti puzza il culo
+        return "index";
+        //matteo ti profuma il culo
     }
 }
