@@ -3,12 +3,13 @@ package org.learning.demo.model;
 import java.math.BigDecimal;
 
 public class Dress {
-    private String iddio;
+    private String ciao;
+    private String id;
     private String color;
     private BigDecimal price;
 
     public Dress(String id, String color, BigDecimal price) {
-        this.iddio = id;
+        this.id = id;
         this.color = color;
         this.price = price;
     }
