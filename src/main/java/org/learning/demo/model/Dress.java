@@ -3,6 +3,7 @@ package org.learning.demo.model;
 import java.math.BigDecimal;
 
 public class Dress {
+    private String ciao;
     private String id;
     private String color;
     private BigDecimal price;
